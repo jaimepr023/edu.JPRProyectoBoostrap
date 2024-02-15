@@ -13,7 +13,7 @@ body {
 	height: 430px;
 }
 
-.section img {
+.section .imagen {
 	width: 0px;
 	flex-grow: 1;
 	object-fit: cover;
@@ -22,9 +22,19 @@ body {
 
 }
 
-.section img:hover {
+.section .imagen:hover {
 	cursor: crosshair;
 	width: 300px;
 	opacity: 1;
 	filter: contrast(120%);
 }
+
+.carousel{
+	opacity: .6;
+}
+
+.carousel:hover{
+	opacity: .8;
+	filter: drop-shadow(5px 5px 20px white);
+}
+
