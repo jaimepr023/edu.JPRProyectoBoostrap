@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 body {
-	background-color: darkgrey;
+	background-color: black;
 }
 
 .navegador1 {
-	background-color: darkgrey;
+	background-color: black;
 }
 
 .section {
@@ -34,7 +34,28 @@ body {
 }
 
 .carousel:hover{
-	opacity: .8;
+	opacity: 1;
 	filter: drop-shadow(5px 5px 20px white);
 }
 
+
+.difuminado{
+	opacity: .7;
+}
+
+.difuminado:hover{
+	opacity: .8;
+	box-shadow: (5px 5px 20px white);
+}
+
+.final{
+	color: white;
+}
+
+.menu{
+	width: 20px;
+}
+
+.tamaño{
+	width: 400px;
+}
