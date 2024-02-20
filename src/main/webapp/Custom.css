@@ -106,8 +106,8 @@ body {
 /* Esta funcion esta sacada de interner de la siguiente pagina: https://codepen.io/cesarchoqueskater/pen/NBJQdw e insipirada en un video de instagram*/
 .motocicletaTran {
 	width: 100px;
-	animation-duration: 8s;
-	animation-name: slidein;
+	animation: slidein 8s infinite;
+
 }
 
 @keyframes slidein {
