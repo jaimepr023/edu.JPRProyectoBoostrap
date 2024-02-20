@@ -29,33 +29,95 @@ body {
 	filter: contrast(120%);
 }
 
-.carousel{
+.carousel {
 	opacity: .6;
 }
 
-.carousel:hover{
+.carousel:hover {
 	opacity: 1;
 	filter: drop-shadow(5px 5px 20px white);
 }
 
 
-.difuminado{
+.difuminado {
 	opacity: .7;
 }
 
-.difuminado:hover{
+.difuminado:hover {
 	opacity: .8;
 	box-shadow: (5px 5px 20px white);
 }
 
-.final{
+.final {
 	color: white;
 }
 
-.menu{
+.menu {
 	width: 20px;
 }
 
-.tamaño{
+.tamaño {
 	width: 400px;
+}
+
+.card-body {
+	background-color: darkgrey;
+}
+
+.form-label {
+	color: white;
+	opacity: .9;
+}
+
+.form-text {
+	color: white;
+	opacity: .9;
+}
+
+.form-check-label {
+	color: white;
+	opacity: .9;
+}
+
+.listas {
+	background-color: grey;
+}
+
+.partes:hover {
+	background-color: lightblue;
+}
+
+.info {
+	color: lightblue;
+}
+
+.lista_categoria {
+	color: white;
+}
+
+.posicion_categoria:hover {
+	filter: drop-shadow(0 0 1px white);
+}
+
+.blue {
+	color: white;
+}
+
+.cubilete {
+	width: 100px;
+	height: 50px;
+	background: red;
+	color: white;
+	font-weight: bold;
+	transition: width 2s;
+	font-size: 100%;
+}
+
+.funciondemoto {
+	transition-timing-function: cubic-bezier(0, 0, 1, 1);
+
+}
+
+.cubilete:hover{
+	transition: ease;
 }
