@@ -103,21 +103,21 @@ body {
 	color: white;
 }
 
-.cubilete {
+/* Esta funcion esta sacada de interner de la siguiente pagina: https://codepen.io/cesarchoqueskater/pen/NBJQdw e insipirada en un video de instagram*/
+.motocicletaTran {
 	width: 100px;
-	height: 50px;
-	background: red;
-	color: white;
-	font-weight: bold;
-	transition: width 2s;
-	font-size: 100%;
+	animation-duration: 8s;
+	animation-name: slidein;
 }
 
-.funciondemoto {
-	transition-timing-function: cubic-bezier(0, 0, 1, 1);
+@keyframes slidein {
+	from {
+		margin-left: 0%;
 
-}
+	}
 
-.cubilete:hover{
-	transition: ease;
+	to {
+		margin-left: 100%;
+
+	}
 }
