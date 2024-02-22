@@ -94,6 +94,7 @@ body {
 .lista_categoria {
 	color: white;
 	flex-grow: 1;
+	list-style: none;
 }
 
 .posicion_categoria:hover {
@@ -178,7 +179,7 @@ body {
 }
 
 .lista_propiedades {
-	list-style: none;
+	text-align: left;
 }
 
 .transladar{
