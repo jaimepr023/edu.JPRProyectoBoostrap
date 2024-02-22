@@ -17,13 +17,13 @@
 	<meta name="Author" content="Jaime Prieto Rubio">
 	<meta name="Descripcion"
 		content="Se trata de una tienda no funcional de base de datos que esta caracterizada por la venta de motocicletas y de su equipamiento protecto y no protector">
-	<meta name="viewport" content="...">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
 	<div class="container-fluid d-none d-md-block">
 		<header class="sticky-top">
-			<nav class="navbar bg-body-dark  border-bottom border-white  navegador1">
+			<nav class="navbar bg-body-dark border-bottom border-white  navegador1">
 				<a href="index.html">
 					<div class="col  bg-opacity-25 text-opacity-75 text-center p-2 m-2 "><img class="icon"
 							src="Imagenes/Logo.png" width="50px" height="40px">
@@ -51,31 +51,169 @@
 		<main>
 			<img src="Imagenes/motocicleta.png" class="motocicletaTran">
 			<div class="row">
-				<div class="col-2 text-center border-end border-bottom border-top border-white my-3">
+				<div class="col-2 text-center border-bottom border-top border-white my-3">
 					<ul class="lista_categoria">
-						<a href="#" class="blue">
-							<div class="my-5 posicion_categoria">CARRETERA</div>
-						</a>
-						<a href="#" class="blue">
-							<div class="my-5 posicion_categoria">CHOPPER</div>
-						</a>
-						<a href="#" class="blue">
-							<div class="my-5 posicion_categoria">DEPORTIVAS</div>
-						</a>
-						<a href="#" class="blue">
-							<div class="my-5 posicion_categoria">MOTO DE CROSS</div>
-						</a>
-						<a href="#" class="blue">
-							<div class="my-5 posicion_categoria">SCOOTER</div>
-						</a>
+						<li><a href="#Carretera" class="blue">
+								<div class="my-5 posicion_categoria">SUPERMOTARD</div>
+							</a></li>
+						<li><a href="#Chopper" class="blue">
+								<div class="my-5 posicion_categoria">CHOPPER</div>
+							</a></li>
+						<li><a href="#Deportivas" class="blue">
+								<div class="my-5 posicion_categoria">DEPORTIVAS</div>
+							</a></li>
+						<li><a href="#Motodecross" class="blue">
+								<div class="my-5 posicion_categoria">MOTO DE CROSS</div>
+							</a></li>
+						<li><a href="#" class="blue">
+								<div class="my-5 posicion_categoria">SCOOTER</div>
+							</a></li>
 					</ul>
 				</div>
-				<div class="col-9">
-					<div class="row text-center text-white my-3">
-						<h1>Carretera</h1>
+				<div class="col-10 mx-auto">
+					<div class="row text-center text-white mx-5 mt-3 contenido_motos align-center">
+						<h1 class="titulo_moto" id="Carretera">Supermotard</h1>
+						<!--Todo esto lo encontre de la pagina Uiverse.io-->
+						<div class="col mx-auto mt-3">
+							<div class="card float-start">
+								<div class="card-inner">
+									<div class="card-front">
+										<img src="Imagenes/KTM.jpg" alt="KTM duke 125" class="imagen_moto">
+									</div>
+									<div class="card-back">
+										<ul class="lista_propiedades">
+											<h1> Ktm duke 125(2021)</h2>
+												<li>Cilindrada: 125 cc</li>
+												<li>Combustible: Gasolina sin plomo 95</li>
+												<li>Ciclo: 4 tiempos</li>
+												<li>Potencia maxima declarada: 15 CV</li>
+												<li>Numero de velocidades: 6</li>
+												<li>Precio: 4.849€</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col mx-auto mt-3">
+							<div class="card float-end">
+								<div class="card-inner">
+									<div class="card-front">
+										<img src="Imagenes/Aprilia.jpg" alt="Aprilia RS 457" class="imagen_moto">
+									</div>
+									<div class="card-back">
+										<ul class="lista_propiedades">
+											<h1> Aprilia RS 457(2024)</h2>
+												<li>Cilindrada: 457 cc</li>
+												<li>Combustible: Gasolina sin plomo 98</li>
+												<li>Ciclo: 4 tiempos</li>
+												<li>Potencia maxima declarada: 47.5 CV</li>
+												<li>Numero de velocidades: 6</li>
+												<li>Precio: 7000€</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="row text-center text-white mx-3 mt-3 contenido_motos align-center">
+							<h1 class="titulo_moto" id="Deportivas">Deportivas</h1>
+							<div class="col mx-auto mt-3">
+								<div class="card float-start">
+									<div class="card-inner">
+										<div class="card-front">
+											<img src="Imagenes/R1.jpg" alt="YAMAHA YZF-R1" class="imagen_moto">
+										</div>
+										<div class="card-back">
+											<ul class="lista_propiedades">
+												<h1>YAMAHA YZF-R1</h2>
+													<li>Cilindrada: 998 cc</li>
+													<li>Combustible: Gasolina sin plomo 95/98</li>
+													<li>Ciclo: 4 tiempos</li>
+													<li>Potencia maxima declarada: 200 CV a 13.500 rpm</li>
+													<li>Numero de velocidades: 6</li>
+													<li>Precio: 30000€</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col mx-auto mt-3">
+								<div class="card float-end">
+									<div class="card-inner">
+										<div class="card-front">
+											<img src="Imagenes/R6.jpg" alt="YAMAHA R6 RACE 118 cv de 2021"
+												class="imagen_moto">
+										</div>
+										<div class="card-back">
+											<ul class="lista_propiedades">
+												<h1> YAMAHA R6 RACE</h2>
+													<li>Cilindrada: 599 cc</li>
+													<li>Combustible: Gasolina sin plomo 98</li>
+													<li>Ciclo: 4 tiempos</li>
+													<li>Potencia maxima declarada: 118 CV </li>
+													<li>Numero de velocidades: 6</li>
+													<li>Precio: 13.199 €</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row text-center text-white mx-3 mt-3 contenido_motos ">
+							<h1 class="titulo_moto" id="Chopper">Chopper</h1>
+							<div class="col mx-auto mt-3">
+								<div class="card float-start transladar">
+									<div class="card-inner">
+										<div class="card-front ">
+											<img src="Imagenes/CHOPPER.jpeg" alt="HONDA VT 1300 CX FURY"
+												class="imagen_moto">
+										</div>
+										<div class="card-back">
+											<ul class="lista_propiedades">
+												<h1>HONDA VT 1300 CX FURY</h2>
+													<li>Cilindrada: 1312 cc</li>
+													<li>Combustible: Gasolina sin plomo 95/98</li>
+													<li>Ciclo: 4 tiempos</li>
+													<li>Potencia maxima declarada: 57.75 cv a 4250 rpm</li>
+													<li>Precio: 15.519 €</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row text-center text-white mx-3 mt-3 contenido_motos align-center">
+							<h1 class="titulo_moto" id="Motodecross">Moto de cross</h1>
+
+							<div class="col mx-auto mt-3">
+								<div class="card float-end">
+									<div class="card-inner">
+										<div class="card-front">
+											<img src="Imagenes/R6.jpg" alt="YAMAHA R6 RACE 118 cv de 2021"
+												class="imagen_moto">
+										</div>
+										<div class="card-back">
+											<ul class="lista_propiedades">
+												<h1> YAMAHA R6 RACE</h2>
+													<li>Cilindrada: 599 cc</li>
+													<li>Combustible: Gasolina sin plomo 98</li>
+													<li>Ciclo: 4 tiempos</li>
+													<li>Potencia maxima declarada: 118 CV </li>
+													<li>Numero de velocidades: 6</li>
+													<li>Precio: 13.199 €</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
 		</main>
 	</div>
 
