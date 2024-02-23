@@ -182,7 +182,24 @@ body {
 	text-align: left;
 }
 
-.transladar{
+.transladar {
 	align-items: center;
 }
 
+.lista_categoria2 {
+	display: flex;
+	flex-grow: 1;
+}
+
+.xolumna_lista {
+	flex-grow: 1;
+}
+
+.tamaño_letra {
+	font-size: 30px;
+}
+
+.foto_producto{
+	width: 80px;
+	height: 70px;
+}
